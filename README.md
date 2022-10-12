@@ -7,9 +7,9 @@ To automatically schedule(running a progam at a specific time periodically) of n
 crontab -e  
 (Minute) (Hour) (Day of the Month) (Month of the Year) (Day of the Week) - first 5 parameters   
 Below is an example to run a program everday at 10:00 o'clock  
-0 10 * * * [path to program/script to execute] >> [path to backup.log for storing logs] 550 2>%1
-Then just hit ENTER
-Done!
+0 10 * * * [path to program/script to execute] >> [path to backup.log for storing logs] 550 2>%1  
+Then just hit ENTER  
+Done!  
  
  To verify if the cron is successfully created or not, you can use this command :-
  crontab -l
