@@ -11,5 +11,5 @@ To automatically schedule(running a progam at a specific time periodically) of n
 ⭐ Then just hit ENTER  
 ⭐ Done!  
  
- To verify if the cron is successfully created or not, you can use this command :-
+ To verify if the cron is successfully created or not, you can use this command :-  
  ⭐ crontab -l
